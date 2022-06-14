@@ -19,4 +19,9 @@ public class BolaController : MonoBehaviour
     {
         transform.position = resetPosition;
     }
+
+    public void ActivePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
+    }
 }
